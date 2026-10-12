@@ -1,6 +1,6 @@
-![sales](https://github.com/ojigwejoyonyii/Sales_performance_analysis-/blob/main/Images/sales.jfif)
+#  SALES PERFORMANCE ANALYSIS
 
-# 📊 SALES PERFORMANCE ANALYSIS
+![Sales](https://github.com/ojigwejoyonyii/Sales_performance_analysis-/blob/main/Images/SALES.png)
 
 ---
 
