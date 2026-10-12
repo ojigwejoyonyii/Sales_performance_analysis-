@@ -192,10 +192,78 @@ Based on the analytical framework, the following actions are recommended for fur
 
 # 🚧 Project Limitations
 
-•	The analysis is limited to the fields available in the supplied dataset.
+1. The analysis is limited to the fields available in the supplied dataset.
 
-•	Revenue is analyzed, but the dataset does not provide enough information to assess profitability unless cost data is available.
+2. Revenue is analyzed, but the dataset does not provide enough information to assess profitability unless cost data is available.
 
-•	The analysis describes observed patterns but does not establish causal relationships.
+3. The analysis describes observed patterns but does not establish causal relationships.
 
-•	Salesperson differences should not be interpreted as individual effectiveness without considering territory size, customer mix, targets, and other contextual factors
+4. Salesperson differences should not be interpreted as individual effectiveness without considering territory size, customer mix, targets, and other contextual factors
+
+---
+
+# 🛠️ Tools 
+
+|Tool / Technology	|Use in Project|
+|-------------------|--------------|
+Microsoft Excel	|Data preparation, calculations, analysis, visualization, and dashboard development.
+Excel Tables / Worksheets	|Structured storage and organization of raw and cleaned data.
+Formulas / Aggregation	|Calculation and summarization of sales measures.
+Pivot table, pivot Charts and Dashboard	|Visual presentation of sales performance and trends.
+
+---
+
+# 🔄 Project Workflow
+
+The project followed the workflow below:
+
+•	Data Source → Obtain the original CSV dataset from the online source.
+
+•	Data Ingestion → Import the CSV data into Excel.
+
+•	Data Exploration → Review fields, records, data types, and available dimensions.
+
+•	Data Cleaning → Correct, standardize, and prepare fields for analysis.
+
+•	Data Validation → Check record counts, totals, dates, and data consistency.
+
+•	Analysis → Aggregate sales by region, salesperson, product type, year, and month.
+
+•	Visualization → Build charts and summary views.
+
+•	Dashboard → Combine important KPIs and visuals into a management-friendly interface.
+
+•	Insight Generation → Interpret observed patterns.
+
+•	Documentation → Record the methodology, findings, limitations, and recommendations.
+
+#  📂 Workbook Structure
+
+The workbook is organized into separate areas for data preparation, analysis, and reporting. The exact worksheet names should be retained in the final documentation if the workbook is published alongside the project.
+
+•	Raw sales data — 445 rows × 8 columns.
+
+•	Revenue by region — 8 rows × 2 columns.
+
+•	Revenue by salesperson — 9 rows × 2 columns.
+
+•	Revenue by type — 8 rows × 2 columns.
+
+•	Revenue by year — 7 rows × 2 columns.
+
+•	Revenue by month — 11 rows × 2 columns.
+
+•	Cleaned sales data — 445 rows × 8 columns.
+
+•	DASHBOARD — 9 rows × 6 columns.
+
+---
+
+# 📝 Conclusion
+
+The Sales Performance Analysis project demonstrates an end-to-end approach to working with sales data in Microsoft Excel. The project moves from raw transactional data through cleaning and validation to analysis, visualization, dashboard development, and business interpretation.
+
+With 444 sales records covering the 2013–2015 period, the analysis provides a structured view of sales performance across regions, salespeople, product types, and time. The resulting dashboard provides a practical reporting tool for monitoring performance, while the supporting analysis creates a foundation for more detailed investigations.
+
+Future versions of the project could be expanded by incorporating cost and profit data, customer segmentation, sales targets, discounts, profitability analysis, and automated refresh processes. These additions would allow the analysis to move beyond revenue reporting toward a broader business-performance perspective.
+
