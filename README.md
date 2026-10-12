@@ -112,8 +112,7 @@ The project is descriptive and diagnostic in nature. It focuses on understanding
 The dataset utilized for this project was obtained through a source provided by the organization. The organization supplied the reference link from which the dataset was accessed and downloaded in CSV format. The dataset was then imported into Microsoft Excel for data preparation, cleaning, validation, analysis, and visualization.
 
 [raw dataset link](https://docs.google.com/spreadsheets/d/1fjp30qHIWajY6D_LttBm194fUu2ZTB3e/edit?usp=drive_link&ouid=110086479642571627068&rtpof=true&sd=true)
-
-The dataset utilized for this project was obtained through a source provided by the organization and is presented in CSV format. 
+ 
 |Dataset Attribute|	Value|
 |-----------------|-------|
 Number of sales records|	444
@@ -123,18 +122,6 @@ Date coverage	|2013–2015
 Primary analysis tool	|Microsoft Excel
 Source format|	CSV
 Column headers	|Year, Month, ProductType, Salesperson, Region, Sales, Units, Order#
-
-The workbook contains 444 sales records and covers three calendar years, 2013 through 2015. The dataset records approximately 2.32 million units and total sales revenue of approximately 3.25 million.
-
-The dataset utilized for this project was obtained through a source provided by the organization and is presented in CSV format. 
-Dataset Attribute	Value
-Number of sales records	444
-Total units recorded	2,322,594
-Total sales revenue	3,254,576.95
-Date coverage	2013–2015
-Primary analysis tool	Microsoft Excel
-Source format	CSV
-Column headers	Year, Month, ProductType, Salesperson, Region, Sales, Units, Order#
 
 The workbook contains 444 sales records and covers three calendar years, 2013 through 2015. The dataset records approximately 2.32 million units and total sales revenue of approximately 3.25 million.
 
