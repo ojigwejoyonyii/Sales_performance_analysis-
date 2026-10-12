@@ -63,6 +63,9 @@ The project covers the period of 2013 to 2015 (3 years) and focuses on the follo
 
 •	Monthly sales trends
 
+
+
+
 •	Dashboard-based presentation of key findings
 
 The project is descriptive and diagnostic in nature. It focuses on understanding what happened in the available sales data and identifying observable patterns. It does not attempt to build a predictive sales forecast or a causal model.
