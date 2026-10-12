@@ -18,7 +18,7 @@
 
 [🧹 Data Preparation, Cleaning and Validation](#-data-preparation-cleaning-and-validation)
 
-[⚙️ Analytical Methodology](#-analytical-methodology)
+[⚙️ Analytical Methodology](#️-analytical-methodology)
 
 [🏆 Key Performance Indicators](#-key-performance-indicators)
 
@@ -30,7 +30,7 @@
 
 [🚧 Project Limitations](#-project-limitations)
 
-[🛠️ Tools](##-tools)
+[🛠️ Tools](#️-tools)
 
 [🔄 Project Workflow](#-project-workflow)
 
