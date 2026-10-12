@@ -55,11 +55,11 @@ The purpose of this project is therefore to organize and analyze the available s
 
 •	How much revenue was generated during the period covered by the dataset?
 
-•	How are sales distributed across regions?
+•	How is sales distributed across regions?
 
 •	How much did each salesperson contribute to recorded sales?
 
-•	Which product types generate the highest sales?
+•	Which product type generated the highest sales?
 
 •	How does sales performance change from year to year?
 
