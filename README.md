@@ -30,7 +30,7 @@
 
 [🚧 Project Limitations](#-project-limitations)
 
-[🛠️ Tools](#-tools)
+[🛠️ Tools](##-tools)
 
 [🔄 Project Workflow](#-project-workflow)
 
