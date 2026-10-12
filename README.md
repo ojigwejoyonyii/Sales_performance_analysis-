@@ -1,3 +1,5 @@
+![sales](https://github.com/ojigwejoyonyii/Sales_performance_analysis-/blob/main/sales%20image.jpg)
+
 # 📊 SALES PERFORMANCE ANALYSIS
 
 ---
@@ -70,4 +72,4 @@ The project covers the period of 2013 to 2015 (3 years) and focuses on the follo
 
 The project is descriptive and diagnostic in nature. It focuses on understanding what happened in the available sales data and identifying observable patterns. It does not attempt to build a predictive sales forecast or a causal model.
 
-![DASHBOARD](Sales-Performance_analysis-dashboard.PNG)
+![DASHBOARD](https://github.com/ojigwejoyonyii/Sales_performance_analysis-/blob/main/Images/Sales-performance_analysis_dashboard.PNG )
