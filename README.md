@@ -217,7 +217,7 @@ Pivot table, pivot Charts and Dashboard	|Visual presentation of sales performanc
 
 The project followed the workflow below:
 
-•	Data Source → Obtain the original CSV dataset from the online source.
+•	Data Source → Obtain the original CSV dataset from link provided by the organization.
 
 •	Data Ingestion → Import the CSV data into Excel.
 
