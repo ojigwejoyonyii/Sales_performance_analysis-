@@ -154,3 +154,48 @@ The dashboard brings together information relating to:
 
 The dashboard also contains 4 slicers which includes Region, Year, Salesperson, and Type. These slicers makes the dashboard interactive, because of the connection created between the slicers and the charts. Also the slicers enables exploring and answering of business questions that are not glaring from the charts but can be gotten by using the slicers.
 The dashboard serves as the presentation layer of the project, while the cleaned data and supporting analysis worksheets provide the underlying calculations.
+
+![DASHBOARD](https://github.com/ojigwejoyonyii/Sales_performance_analysis-/blob/main/Images/Sales-performance_analysis_dashboard.PNG)
+
+---
+
+# 💡 Key Findings and Insights 
+
+This analysis revealed key insights into sales performance, regional performance, product performance and trends. The findings below highlight the most significant patterns and areas of performance identified from the data.
+
+•	From the analysis I identified that revenue increased from **$428,437.00 to $480,267.00** in 2014 [12.1% increase] and fell to **$470,869.20** in 2015 which is about approximately **1.96%** decrease in revenue.
+
+•	Three of the five salespersons Bishop, Lee and Parker consistently accounted for the highest revenue over the three year period. Their year on year rankings frequently changed, with each salesperson taking the lead at different points. This indicates a relatively competitive environment among the top performers, although further information will be needed to determine the factors driving this changes. Over the three years considered in this analysis Pullen generated the lowest revenue.
+
+•	Central region generated the highest revenue consistently over three years, it generated a total sum of **$1,391,555.30** whereas the south region generated the lowest revenue over three years, it generated the sum of **$505,968.95**. 
+
+•	April consistently recorded the highest revenue across the three year period. During this peak month, ice cream and tasty treats generated the highest revenue, followed by frozen yoghurt, while popsicles recorded significantly lower revenue than the other product types.
+
+•	Popsicles recorded their highest revenue in May consistently across the three year period, despite being the lowest performing product in April. Regionally, Popsicles generated the lowest revenue in the north over three years while tasty treats recorded its weakest sales performance in the south.
+
+---
+
+# 🚀 Recommendations
+Based on the analytical framework, the following actions are recommended for further business investigation:
+
+•	Management could consider introducing clearly defined sales target and performance based incentives to encourage sustained sales performance. Targets could be set based on historical performance and adjusted to reflect market conditions while incentives could recognize both individual achievement and consistent performance over time.
+
+•	Management should leverage the consistent April sales peak by increasing inventory and promotional activities for high performing products such as ice cream, tasty treats and frozen yoghurt ahead of the period. At the same time, the consistent low performance of Popsicles in April should be investigated to determine whether pricing, customer preference, product positioning, or availability is contributing to its weak sales.
+
+•	Given that popsicles perform the highest in May over the three years considered in this analysis, management should consider increasing the inventory of popsicles around May period as well as promotional activities in other to take advantage of its consistent strong seasonal performance.
+
+•	Management should investigate why popsicles underperform in the north and why tasty treats underperform in the south, factors like customers preference, pricing, local competition, and availability could be considered. Management could test targeted promotions or alternative pricing for popsicles in the north and tasty treats in the south to determine whether their performance can be improved.
+
+•	Rather than applying one marketing strategy across the regions, promotions could be tailored to products that have stronger demand in each region.
+
+---
+
+# 🚧 Project Limitations
+
+•	The analysis is limited to the fields available in the supplied dataset.
+
+•	Revenue is analyzed, but the dataset does not provide enough information to assess profitability unless cost data is available.
+
+•	The analysis describes observed patterns but does not establish causal relationships.
+
+•	Salesperson differences should not be interpreted as individual effectiveness without considering territory size, customer mix, targets, and other contextual factors
