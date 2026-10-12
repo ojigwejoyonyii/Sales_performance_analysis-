@@ -57,7 +57,7 @@ The purpose of this project is therefore to organize and analyze the available s
 
 •	How are sales distributed across regions?
 
-•	Which salespeople contribute most to recorded sales?
+•	How much did each salesperson contribute to recorded sales?
 
 •	Which product types generate the highest sales?
 
@@ -158,8 +158,8 @@ This analysis was performed using aggregation, grouping, comparison, and visuali
 Region	       |Compare geographic or regional contribution to total sales.
 Salesperson	   |Identify differences in individual sales contribution.
 Product Type   |Determine which product categories generate more sales.
-Year	Examine  |annual changes in sales performance.
-Month	Identify | monthly patterns and periods of stronger or weaker sales activity.
+Year |Examine annual changes in sales performance.
+Month 	|Identify monthly patterns and periods of stronger or weaker sales activity.
 
 ---
 
