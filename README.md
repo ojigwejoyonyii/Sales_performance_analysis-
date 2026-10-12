@@ -8,6 +8,36 @@
 
 [📝 PROJECT OVERVIEW](#-project-overview)
 
+[❓ Business Problem](#-business-problem)
+
+[🎯 Project Objectives](#-project-objectives)
+
+[🔍 Project Scope](#-project-scope)
+
+[📂 Data Source And Description](#-data-source-and-description)
+
+[🧹 Data Preparation, Cleaning and Validation](#-data-preparation-cleaning-and-validation)
+
+[⚙️ Analytical Methodology](#-analytical-methodology)
+
+[🏆 Key Performance Indicators](#-key-performance-indicators)
+
+[📈 Dashboard Development](#-dashboard-development)
+
+[💡 Key Findings and Insights](#-key-findings-and-insights)
+
+[🚀 Recommendations](#-recommendations)
+
+[🚧 Project Limitations](#-project-limitations)
+
+[🛠️ Tools](#-tools)
+
+[🔄 Project Workflow](#-project-workflow)
+
+[📂 Workbook Structure](#-workbook-structure)
+
+[📝 Conclusion](#-conclusion)
+
 ---
 
 # 📝 PROJECT OVERVIEW
@@ -146,7 +176,7 @@ Month	Identify | monthly patterns and periods of stronger or weaker sales activi
 
 ---
 
-# Key Performance Indicators
+# 🏆 Key Performance Indicators
 
 This project uses the following core measures to describe sales performance:
 
@@ -163,7 +193,7 @@ Sales by Month	|Sales aggregated by month.	|Shows seasonal/monthly pattern.	|Got
 
 ---
 
-# Dashboard Development
+# 📈 Dashboard Development
 
 An Excel dashboard was developed to consolidate the main findings into a single visual reporting interface. The dashboard is designed to make the most important sales information accessible without requiring the user to inspect every underlying worksheet.
 The dashboard brings together information relating to:
