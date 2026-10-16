@@ -19,7 +19,7 @@
   
 - [Project Scope](#-project-scope)
   
-- [Dataset Overview](#-dataset-overview)
+- [Dataset Overview](#️-dataset-overview)
   
 - [Data Source](#-data-source)
   
@@ -41,13 +41,13 @@
     
   - [Monthly Sales Analysis](#monthly-sales-analysis)
     
-- [Dashboard Development](#-dashboard-development)
+- [Dashboard Development](-#️dashboard-development)
   
 - [Key Findings and Insights](#-key-findings-and-insights)
   
 - [Recommendations](#-recommendations)
   
-- [Project Limitations](#-project-limitations)
+- [Project Limitations](#️-project-limitations)
   
 - [Tools](#️-tools)
   
