@@ -129,23 +129,33 @@ The workbook contains 444 sales records and covers three calendar years, 2013 th
 
 # 🧹 Data Preparation, Cleaning and Validation
 
-Before analysis, the raw dataset was reviewed and prepared to improve consistency and usability. The cleaning stage is important because analytical results depend on the quality and structure of the underlying data.
+The raw dataset was reviewed and prepared to improve consistency and usability, since analytical results depend on data quality.
 
-A. **Reviewed the raw dataset structure and column fields**. In other to understand the dataset, I first explored the column headers to understand the value held by each one and what such value meant.
+1. **Reviewed the raw dataset structure and column fields.**
+   Explored each column header to understand the values it holds and what they mean.
 
-B. **Checked the dataset for missing or incomplete values**. To check for null cells I clicked on the filter arrow on each column header and explored the content of each column to ensure there is no null cell or error value.
+2. **Checked for missing or incomplete values.**
+   Used the filter arrow on each column header to inspect its contents and confirm there were no blank cells or error values.
 
-C. **Reviewed data types to ensure dates, numerical fields, and categorical fields were suitable for analysis**.  My major concern was the year column, the month column and the sales column. To ensure that the data type in this columns are valid I explored each column individually. For the month column I highlighted the column went to Home Tab and then to number group command to identify the format in which it was saved as and it was saved in general format, since the dataset did not provide full information about the date in which sales took place, such as providing the day, it just provided information on year and month so I left it in general format instead of changing it to short date or long date format. The exploration, result and decision I made in the year column also applies to the month column. For the sales column in other to ensure that the data in the column is valid I used the minimum function, since the sales values represent revenue generated from each sales then its value should never be a negative value which is why I used the minimum function. The formula I used is this (=MIN(Sales_info[Sales]) and it returned the value 196.25 showing that sales column doesn’t have a negative value.
+3. **Reviewed data types.**
+   The main concerns were the `Year`, `Month`, and `Sales` columns.
+   - **Year / Month:** Checked via *Home → Number* group; both were stored in *General* format. Because the dataset provides only year and month (no day), they were left in General format rather than converted to a date format.
+   - **Sales:** Revenue should never be negative, so the minimum was checked with `=MIN(Sales_info[Sales])`, which returned **196.25**, confirming no negative values.
 
-D. **Checked for duplicate values**. I did not check for duplicate values in each column because of the nature of the dataset. The year column will definitely have values occurring more than once, given that multiple sales can be made in a particular year causing the year to appear more than once in the year column, this same explanation applies to the year column and the sales column. So I checked for duplicate value on the table as a whole by highlighting the table containing  the dataset, going to Data Tab, under data tools group command I selected remove duplicate and checked all the columns header and clicked ok,  the command returned no duplicate value found.
+4. **Checked for duplicates.**
+   Individual columns were not checked, since repeated values in `Year`, `Month`, or `Sales` are expected. Instead, duplicates were checked across the whole table (*Data → Remove Duplicates*, all columns selected). **No duplicates were found.**
 
-E. **Removed error sign**. To remove the error sign on the order# column I highlighted the whole column, clicked on the error icon and selected ignore error sign. I further investigated the cause of the error sign showing in the order# column and I discovered that error sign is showing because the column contains numerical value but was stored as text. During my analysis, when counting the number of orders in the order# column I simply used the COUNTA function. I adopted the COUNTA function solution in place of converting the column to be stored as numeric value.
+5. **Removed the error indicator on `Order#`.**
+   The error flag appeared because numeric values were stored as text. Rather than converting the column, the *Ignore Error* option was applied and `COUNTA` was used to count orders.
 
-F. **Renamed column**. For ease of understanding during analysis I changed the column header containing product types from Type to ProductType.
+6. **Renamed a column.**
+   `Type` was renamed to `ProductType` for clarity during analysis.
 
-G. **Confirmed the number of records after cleaning**. I reviewed the total number of records before and after cleaning the sales dataset in other to access the impact of the cleanings I carried out and to ensure that the resulting dataset contained the expected number of records. Before I carried out any cleaning I explored the row header and discovered that on subtracting the column header that the sales_info table contains 444 populated cells/ records, I carried out the same exploration after cleaning and the still had 444 populated cells/records.
+7. **Confirmed record counts after cleaning.**
+   The `Sales_info` table contained **444 records** both before and after cleaning.
 
-H. **Retained a separate cleaned dataset so that the transformation process could be distinguished from the original data**.
+8. **Retained a separate cleaned dataset.**
+   The raw and cleaned data are kept apart so the transformation process remains distinguishable from the original data.
 
 ---
 
